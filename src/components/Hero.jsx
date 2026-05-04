@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { assets } from "../assets/assets_frontend/assets";
 
-const Hero = () => {
+const   Hero = () => {
     return (
         <div className="flex flex-col lg:flex-row items-center bg-[#5F6FFF] rounded-lg px-4 sm:px-6 md:px-10 lg:px-12 py-8 md:py-12 gap-8">
 

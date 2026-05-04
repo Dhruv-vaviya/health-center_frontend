@@ -25,7 +25,7 @@ return (
                 </div>
             ))}
         </div>
-        <button className="bg-blue-400 text-white py-2 px-6 rounded-full hover:bg-blue-600 transition-colors duration-300">more</button>
+        <button onClick={() => {navigate('/doctors'); scrollTo(0,0) }} className="bg-blue-400 text-white py-2 px-6 rounded-full hover:bg-blue-600 transition-colors duration-300">more</button>
     </div>
 )
 }
